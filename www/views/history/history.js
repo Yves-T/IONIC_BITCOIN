@@ -11,7 +11,7 @@
       $scope.currencies = Currencies;
 
       $scope.changeCurrency = function () {
-        $state.go('tabs-history', {currency: $scope.history.currency});
+        $state.go('tabs.history', {currency: $scope.history.currency});
       };
 
       $scope.chart = {
